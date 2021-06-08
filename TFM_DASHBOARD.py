@@ -26,7 +26,7 @@ st.header(option)
     
 if option =='Mercado de divisas':
     st.subheader('Datos y gráfico Mercado de divisas')
-    snp500 = pd.read_csv("C:/Users/Propietario/Desktop/TFM/dashboard/DASHBOARDS_NUEVOS/21_04(PRUEBA 2)/divisas.csv")
+    snp500 = pd.read_csv("divisas.csv")
     symbols = snp500['Symbol'].sort_values().tolist()
     
 
@@ -178,7 +178,7 @@ if option =='Mercado de divisas':
     
 if option =='Criptomonedas':
     st.subheader('Datos y gráfico Criptomonedas')
-    snp500 = pd.read_csv("C:/Users/Propietario/Desktop/TFM/dashboard/DASHBOARDS_NUEVOS/21_04(PRUEBA 2)/crypto2.csv")
+    snp500 = pd.read_csv("crypto2.csv")
     symbols = snp500['Symbol'].sort_values().tolist()
     
 
