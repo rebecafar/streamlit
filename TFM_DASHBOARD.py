@@ -1,4 +1,4 @@
-pip install pymysql
+
 from __future__ import print_function
 import streamlit as st
 import requests
