@@ -2,6 +2,7 @@ gender-guesser==0.4.0
 pymysql
 plotly
 matplotlib
+yfinance
 streamlit
 numpy==1.18.5
 pandas
