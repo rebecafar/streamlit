@@ -1,5 +1,6 @@
 gender-guesser==0.4.0
 pymysql
+plotly
 matplotlib
 streamlit
 numpy==1.18.5
