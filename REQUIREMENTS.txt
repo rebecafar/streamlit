@@ -1,2 +1,10 @@
-streamlit
+gender-guesser==0.4.0
 pymysql
+matplotlib
+streamlit
+numpy==1.18.5
+pandas
+xmltodict
+urllib3
+seaborn==0.11.0
+streamlit-lottie
