@@ -36,7 +36,7 @@ if option =='Mercado de divisas':
 
     i = st.sidebar.selectbox(
             "Interval in minutes",
-            ( "1m", "5m", "15m", "30m", "1h")
+            ("15m", "30m", "1h")
         )
 
 
