@@ -6,8 +6,22 @@ mplcyberpunk
 yfinance
 streamlit
 numpy==1.18.5
-pandas
 xmltodict
 urllib3
 seaborn==0.11.0
 streamlit-lottie
+print_function
+import requests
+pandas
+plotly.graph_objects
+datetime
+make_subplots
+numpy
+time
+Image
+datetime
+time
+matplotlib.pyplot
+datetime
+get_ipython
+ThreadPoolExecutor
