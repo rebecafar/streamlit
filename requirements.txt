@@ -13,15 +13,4 @@ streamlit-lottie
 print_function
 requests
 pandas
-plotly.graph_objects
-datetime
-make_subplots
-numpy
-time
-Image
-datetime
-time
-matplotlib.pyplot
-datetime
-get_ipython
-ThreadPoolExecutor
+
