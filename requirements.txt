@@ -11,7 +11,7 @@ urllib3
 seaborn==0.11.0
 streamlit-lottie
 print_function
-import requests
+requests
 pandas
 plotly.graph_objects
 datetime
