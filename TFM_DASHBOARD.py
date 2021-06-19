@@ -591,7 +591,7 @@ if option =='Modelos':
         ARIMA_diff(df, train_data)
         
     if selected_stock =='Comparación ARIMA - LSTM':
-        df = pd.read_csv(r'C:\Users\Propietario\Desktop\Rebeca\dataset_BTC_USD.csv')
+        df = pd.read_csv("dataset_BTC_USD.csv")
         train_data, test_data = df[0:int(len(df)*0.8)], df[int(len(df)*0.8):]
         predicciones_arima = pd.read_csv("arima_predictions_BTCUSD.csv")
         predicciones_lstm = pd.read_csv("predictions_rmsprop_lstm.csv")
