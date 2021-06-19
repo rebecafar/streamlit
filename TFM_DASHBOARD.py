@@ -334,7 +334,7 @@ if option =='Bitcoin/Eurodolar':
     st.subheader('STOCK DASHBOARD')
     START = '2021-01-01'
     TODAY = dt.date.today().strftime('%Y-%m-%d')
-    snp500 = pd.read_csv("C:/Users/Propietario/Desktop/TFM/dashboard/DASHBOARDS_NUEVOS/21_04(PRUEBA 2)/btc_eur.csv")
+    snp500 = pd.read_csv("btc_eur.csv")
     symbols = snp500['Symbol'].sort_values().tolist()
     ticker = st.sidebar.selectbox('Choose an option',symbols)
     i = st.sidebar.selectbox(
@@ -504,7 +504,7 @@ if option =='Modelos':
     selected_stock = st.selectbox('Select', modelos)
     
     if selected_stock =='Arima':
-        df = pd.read_csv(r'C:\Users\Propietario\Desktop\Rebeca\dataset_BTC_USD.csv')
+        df = pd.read_csv("dataset_BTC_USD.csv")
         train_data, test_data = df[0:int(len(df)*0.8)], df[int(len(df)*0.8):]
         predicciones_arima = pd.read_csv(r'C:\Users\Propietario\Desktop\Rebeca\arima_predictions_BTCUSD.csv')
   
