@@ -506,7 +506,7 @@ if option =='Modelos':
     if selected_stock =='Arima':
         df = pd.read_csv("dataset_BTC_USD.csv")
         train_data, test_data = df[0:int(len(df)*0.8)], df[int(len(df)*0.8):]
-        predicciones_arima = pd.read_csv(r'C:\Users\Propietario\Desktop\Rebeca\arima_predictions_BTCUSD.csv')
+        predicciones_arima = pd.read_csv("arima_predictions_BTCUSD.csv")
   
         train_ar = train_data['Open'].values
         history = [x for x in train_ar]
@@ -593,8 +593,8 @@ if option =='Modelos':
     if selected_stock =='Comparación ARIMA - LSTM':
         df = pd.read_csv(r'C:\Users\Propietario\Desktop\Rebeca\dataset_BTC_USD.csv')
         train_data, test_data = df[0:int(len(df)*0.8)], df[int(len(df)*0.8):]
-        predicciones_arima = pd.read_csv(r'C:\Users\Propietario\Desktop\Rebeca\arima_predictions_BTCUSD.csv')
-        predicciones_lstm = pd.read_csv(r'C:\Users\Propietario\Desktop\Rebeca\predictions_rmsprop_lstm.csv')
+        predicciones_arima = pd.read_csv("arima_predictions_BTCUSD.csv")
+        predicciones_lstm = pd.read_csv("predictions_rmsprop_lstm.csv")
         train_ar = train_data['Open'].values
         history = [x for x in train_ar]
 
